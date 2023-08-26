@@ -6,6 +6,7 @@ body{
 .top{
   background-color: rgb(253, 90, 31);
   padding: 0px 10px 10px 0px;
+  color: #fff;
 }
 .header{
   display: flex;
@@ -30,7 +31,7 @@ body{
 }
 a{
   text-decoration: none;
-  color: black;
+  color: #fff;
 }
 .top{
   display: flex;
@@ -70,7 +71,9 @@ a{
 }
 .middle-div>h2{
   text-align: center;
+  color: rgb(253, 90, 31);
   font-size: 30px;
+  text-decoration: underline;
 }
 .other-duke-container{
   display: flex;
@@ -106,7 +109,8 @@ a{
 
 .last-flex{
   display: flex;
-  background-color: lightblue;
+  color: #fff;
+  background-color: rgb(255, 183, 50);
   border-radius: 15px;
   width: 50%;
   margin: 0 auto 30px auto;
@@ -121,7 +125,8 @@ a{
 }
 
 .right>button{
-  background-color: azure;
+  color: rgb(253, 90, 31);
+  background-color: #fff;
   font-size: 15px;
   padding: 8px;
   border: none;

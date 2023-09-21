@@ -63,11 +63,17 @@ a{
   width: 75;
 }
 .left-display>button{
-  background-color: white;
+  background-color: rgb(219, 219, 219);
   border: none;
   padding: 15px;
   font-weight: 700;
-  color: rgb(255, 68, 0) ;
+  color: rgb(255, 99, 42) ;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.left-display>button:hover{
+  color: rgb(255, 68, 0);
+  background-color: #fff;
 }
 .middle-div{
   padding: 30px;
@@ -129,16 +135,17 @@ a{
 
 .right>button{
   color:rgb(255, 183, 50);
-  background-color: #fff;
+  background-color: rgb(255, 248, 236);
   font-size: 15px;
   padding: 8px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
+  transition: 0.5s;
 
 }
 .right>button:hover{
-  background-color: rgb(255, 232, 189) ;
+  background-color: #fff;
 }
 
 footer{

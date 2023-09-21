@@ -2,6 +2,9 @@
 
 body{
   font-family: 'Roboto', "Times New Roman", 'sans-serif';
+  margin:0px;
+  padding:0px;
+  overflow-x: hidden;
 }
 .top{
   background-color: rgb(253, 90, 31);

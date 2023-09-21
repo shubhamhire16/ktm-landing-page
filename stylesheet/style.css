@@ -128,7 +128,7 @@ a{
 }
 
 .right>button{
-  color: rgb(253, 90, 31);
+  color:rgb(255, 183, 50);
   background-color: #fff;
   font-size: 15px;
   padding: 8px;
@@ -154,14 +154,14 @@ footer{
 .icons a{
   text-decoration: none;
   padding: 10px;
-  background-color: rgb(253, 90, 31);
+  background-color: rgb(255, 183, 50);
   margin: 10px;
   border-radius: 50%;
 }
 
 .icons a li{
   font-size: 2em;
-  color:  rgb(253, 90, 31);
+  color:  rgb(255, 183, 50);
   opacity: 0.9;
 }
 .icons a:hover{
@@ -169,7 +169,7 @@ footer{
   transition: 0.5s;
 }
 .icons a:hover i{
-  color: #fff;
+  color: rgb(255, 183, 50);
   transition: 0.5s;
 }
 
@@ -191,6 +191,7 @@ footer{
 }
 
 .footerNav ul a:hover{
+  color:  rgb(255, 183, 50);
   opacity: 1;
   font-weight: 700;
   font-size: 24px;

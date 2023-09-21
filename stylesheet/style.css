@@ -133,3 +133,74 @@ a{
   border-radius: 8px;
 
 }
+
+footer{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: #7f7f7f;
+}
+.footerContainer{
+  width: 100%;
+  padding: 10px 30px 20px;
+}
+.icons{
+  display: flex;
+  justify-content: center;
+}
+.icons a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgb(253, 90, 31);
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.icons a li{
+  font-size: 2em;
+  color:  rgb(253, 90, 31);
+  opacity: 0.9;
+}
+.icons a:hover{
+  background-color: #7f7f7f;
+  transition: 0.5s;
+}
+.icons a:hover i{
+  color: #fff;
+  transition: 0.5s;
+}
+
+.footerNav{
+  margin: 30px 0px;
+}
+.footerNav ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.footerNav ul a{
+  color: #fff;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 22px;
+  opacity: 0.7;
+  transition: 0.6s;
+}
+
+.footerNav ul a:hover{
+  opacity: 1;
+  font-weight: 700;
+  font-size: 24px;
+}
+.footerBottom{
+  background-color: rgb(32, 32, 32);
+  padding: 0.5px;
+  text-align: center;
+}
+.footerBottom p{
+  color: #fff;
+}
+.footerBottom p span{
+  text-transform: uppercase;
+  font-size: larger;
+}
